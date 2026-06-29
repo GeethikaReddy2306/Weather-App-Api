@@ -1,61 +1,198 @@
-# 🌦️ Weather App
+# 🌤️ Weather App
 
-A simple and beautiful Weather App built using **HTML**, **CSS**, and **JavaScript**.  
-This app fetches real-time weather information from the **OpenWeatherMap API** and displays:
-
-- Temperature  
-- City Name  
-- Weather Icon  
-- Humidity  
-- Wind Speed  
-
-This project is part of my MERN learning journey — building projects to understand APIs and JavaScript better.
-
----
-## 🚀 Features
-
-- 🌍 Search weather by city name  
-- 🌡️ Temperature in Celsius  
-- 💧 Humidity info  
-- 🌬️ Wind speed  
-- 🎨 Clean and responsive UI  
-- 🌈 Gradient card design  
-- 🔄 Real-time API data  
+A modern and responsive **Weather Application** built using **HTML, CSS, and JavaScript**. The application fetches real-time weather information using the **OpenWeatherMap API** and displays accurate weather details for any city worldwide.
 
 ---
 
-## 📸 Screenshot
+## 🚀 Live Demo
 
-(Add your screenshot after running the project)
+🔗 https://weather-app-api-swart.vercel.app/
+
+---
+
+## 📸 Preview
+
+<img width="660" height="925" alt="image" src="https://github.com/user-attachments/assets/19d6afbd-8fc0-45e7-b06d-c1ecfb1d59b1" />
 
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Features
 
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (ES6)**  
-- **OpenWeatherMap API**
-
-📄 License
-
-This project is open source and free to use for learning purposes.
-
-
-**Parameters used:**
-
-- `q` — city name  
-- `units=metric`  
-- `appid=YOUR_API_KEY`  
+- 🌍 Search weather by city name
+- 🌡️ Real-time temperature updates
+- ☁️ Dynamic weather conditions
+- 💧 Humidity information
+- 🌬️ Wind speed display
+- 🎨 Clean and responsive UI
+- 📱 Mobile-friendly design
+- ⚡ Fast API integration
+- ❌ Error handling for invalid city names
 
 ---
-## ▶️ How to Run the Project
 
-1. Clone the repository  
-2. Open the project folder  
-3. Add your OpenWeatherMap API key inside `app.js`  
-```js
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- OpenWeatherMap API
+
+---
+
+## 📂 Project Structure
+
+```
+Weather-App/
+│
+├── index.html
+├── style.css
+├── app.js
+│
+├── clear.png
+├── clouds.png
+├── drizzle.png
+├── humidity.png
+├── mist.png
+├── rain.png
+├── search.png
+├── snow.png
+├── wind.png
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/weather-app.git
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd weather-app
+```
+
+### 3. Get Your API Key
+
+Visit:
+
+https://openweathermap.org/api
+
+Create a free account and generate an API key.
+
+---
+
+### 4. Add Your API Key
+
+Open **app.js**
+
+Replace:
+
+```javascript
 const apiKey = "YOUR_API_KEY";
-4. Open index.html in the browser
-5.Enter a city name and get live weather updates!
+```
+
+with
+
+```javascript
+const apiKey = "YOUR_OPENWEATHER_API_KEY";
+```
+
+---
+
+### 5. Run the Project
+
+Simply open:
+
+```
+index.html
+```
+
+in your browser.
+
+---
+
+## 📌 API Parameters
+
+| Parameter | Description |
+|------------|-------------|
+| q | City Name |
+| appid | Your OpenWeatherMap API Key |
+| units=metric | Temperature in Celsius |
+
+---
+
+## 💡 How It Works
+
+1. Enter a city name.
+2. Click the search button.
+3. The application sends a request to the OpenWeatherMap API.
+4. Weather information is fetched.
+5. Temperature, humidity, wind speed, and weather icon are displayed instantly.
+
+---
+
+
+
+## 🎯 Future Improvements
+
+- 📍 Detect current location weather
+- 🌙 Dark mode
+- 🕒 5-Day Weather Forecast
+- 🌅 Sunrise & Sunset timings
+- 🌡️ Feels Like Temperature
+- 🌎 Country Flags
+- 🎭 Better animations
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to your branch
+
+```bash
+git push origin feature-name
+```
+
+5. Create a Pull Request
+
+---
+
+## 👩‍💻 Author
+
+**Geethika Kotu**
+
+- GitHub: https://github.com/GeethikaReddy2306
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+Feel free to use this project for learning and personal development.
+
+---
+
+⭐ If you like this project, don't forget to **Star** the repository!
